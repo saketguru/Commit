@@ -5,7 +5,7 @@ Commit tool is used to mine communication motifs from large dynamic networks. Re
 
 #### **How To Run**
 
-```./commit filepath motifSize Delta_time choice value```
+```./commit.sh filepath motifSize Delta_time choice value```
 
 * The filepath is the location of single large network file. Graph is stored with edgelist representation. Format: time 0 source_node dest_node
 * Motifsize is the maximum size upto which one wants to mine motifs
