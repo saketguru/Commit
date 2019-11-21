@@ -7,7 +7,7 @@ if [ $# -le 3 ]
     exit
 fi
 
-./Compile/TopKSubgraphMotifsDictSIGMOD $1 $2 $3 $4 $5
+./Executable/TopKSubgraphMotifsDictSIGMOD $1 $2 $3 $4 $5
 ./getCounts.sh Mined_Motifs Mined_Motifs_m$2_t$3_v$5
 
 
