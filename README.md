@@ -20,10 +20,9 @@ For example
 ```./commit.sh Dataset/Facebook.txt 3 60 1 5```
 
 
-The above command retrieves top 5 frequent motifs of size 3 (edges) with Delta_time as 60.
-motif counts are summarized  in Mined_Motifs_m3_t60_v5.txt file.
+The above command retrieves top 5 frequent motifs of size 3 (edges) with Delta_time as 60. Motif counts are summarized in the created file Mined_Motifs_m3_t60_v5.txt file.
 
-**Note** : the executable file is compatible with Linux systems.
+**Note** : The executable file is compatible with Linux systems.
 
 -----
 #### **Reference**
